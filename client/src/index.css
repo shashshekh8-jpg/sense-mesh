@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Accessibility focus ring defaults */
+:focus-visible {
+    outline: 4px solid #3b82f6;
+    outline-offset: 2px;
+}
